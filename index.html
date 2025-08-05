@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-user-graduate"></i>
+                <span>Academic Profile</span>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <div class="theme-switcher">
+                    <div class="theme-option theme-light active" data-theme="light" title="Light Theme"></div>
+                    <div class="theme-option theme-dark" data-theme="dark" title="Dark Theme"></div>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav>
+                <div class="nav-bg"></div>
+                <ul id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#downloads" class="nav-link">Downloads</a></li>
+                    <li><a href="#teaching" class="nav-link">Teaching</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="container">
+                <!-- About Me Section -->
+                <div class="about-me">
+                    <h2>About Me</h2>
+                    <img src="https://picsum.photos/seed/academic/200/200.jpg" alt="Profile Picture">
+                    <p>I am a Professor in the Department of Computer Science with over 15 years of experience in machine learning, artificial intelligence, and data science. My research focuses on developing novel algorithms and models for complex real-world problems, particularly in healthcare and biomedical applications.</p>
+                    <p>I have published over 150 papers in top-tier conferences and journals, and my work has been recognized with several awards. I am passionate about mentoring the next generation of researchers and have supervised more than 20 PhD students and 30 Master's students to completion.</p>
+                    <p>Before joining academia, I worked in industry as a research scientist, where I developed machine learning solutions for various applications. I hold a PhD in Computer Science from a prestigious university and have collaborated with researchers from around the world.</p>
+                </div>
+                
+                <!-- Education Section -->
+                <div class="education-section">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <div class="education-item">
+                        <h3>PhD in Computer Science <span class="period">2004 - 2008</span></h3>
+                        <div class="institution">Prestigious University</div>
+                        <div class="description">Doctoral research focused on machine learning algorithms for pattern recognition and data mining. Developed novel approaches for structured sparsity in high-dimensional data.</div>
+                        <ul class="details">
+                            <li>Dissertation: "Structured Sparsity in High-Dimensional Data: Theory and Algorithms"</li>
+                            <li>Advisor: Dr. John Smith</li>
+                            <li>Received the Best PhD Thesis Award</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="education-item">
+                        <h3>Master of Science in Computer Science <span class="period">2002 - 2004</span></h3>
+                        <div class="institution">State University</div>
+                        <div class="description">Advanced studies in machine learning, data mining, and artificial intelligence. Specialized in neural networks and pattern recognition.</div>
+                        <ul class="details">
+                            <li>Thesis: "Neural Networks for Pattern Recognition in Medical Images"</li>
+                            <li>GPA: 3.9/4.0</li>
+                            <li>Received Academic Excellence Scholarship</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="education-item">
+                        <h3>Bachelor of Science in Computer Science <span class="period">1998 - 2002</span></h3>
+                        <div class="institution">University of Technology</div>
+                        <div class="description">Comprehensive education in computer science fundamentals, programming, algorithms, and mathematics. Graduated with honors.</div>
+                        <ul class="details">
+                            <li>Major: Computer Science</li>
+                            <li>Minor: Mathematics</li>
+                            <li>Graduated Summa Cum Laude</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- News Section -->
+                <div class="news-section">
+                    <h2>News & Updates</h2>
+                    <div class="news-list">
+                        <div class="news-item">
+                            <h3>New Paper Accepted at ICML 2023</h3>
+                            <p>Our paper on "Deep Learning for Survival Prediction in Cancer Patients" has been accepted at the International Conference on Machine Learning.</p>
+                            <div class="date">June 15, 2023</div>
+                        </div>
+                        <div class="news-item">
+                            <h3>Research Grant Awarded</h3>
+                            <p>We have been awarded a $500,000 research grant from the National Science Foundation for our project on "Machine Learning for Drug Discovery".</p>
+                            <div class="date">May 28, 2023</div>
+                        </div>
+                        <div class="news-item">
+                            <h3>PhD Student Wins Best Paper Award</h3>
+                            <p>Congratulations to Jane Smith for winning the Best Paper Award at the International Conference on Medical Image Computing.</p>
+                            <div class="date">April 12, 2023</div>
+                        </div>
+                        <div class="news-item">
+                            <h3>New Collaboration with Medical School</h3>
+                            <p>We are excited to announce a new collaboration with the University Medical School to apply AI techniques for medical image analysis.</p>
+                            <div class="date">March 5, 2023</div>
+                        </div>
+                        <div class="news-item">
+                            <h3>Invited Talk at AAAI 2023</h3>
+                            <p>I will be giving an invited talk on "Deep Graph Learning for Biomedical Applications" at the AAAI Conference on Artificial Intelligence.</p>
+                            <div class="date">February 18, 2023</div>
+                        </div>
+                        <div class="news-item">
+                            <h3>Workshop on Machine Learning for Healthcare</h3>
+                            <p>We are organizing a workshop on "Machine Learning for Healthcare" at the upcoming NeurIPS conference. Submissions are now open.</p>
+                            <div class="date">January 30, 2023</div>
+                        </div>
+                        <div class="news-item">
+                            <h3>New Research Lab Opening</h3>
+                            <p>Our new AI for Healthcare Research Lab is now open. We have state-of-the-art facilities for conducting cutting-edge research.</p>
+                            <div class="date">December 10, 2022</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Supervised PhD Students -->
+                <div class="student-section">
+                    <h2><i class="fas fa-graduation-cap"></i> Supervised PhD Students</h2>
+                    <ul>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Jane Smith (2023) - "Deep Learning for Medical Image Segmentation"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Assistant Professor at Stanford University</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    John Doe (2022) - "Machine Learning for Drug Discovery"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Senior Research Scientist at Pfizer</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Emily Johnson (2021) - "Graph Neural Networks for Social Network Analysis"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Data Scientist at Meta</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Michael Brown (2020) - "Structured Sparsity in High-Dimensional Data"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Research Scientist at Google AI</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Sarah Davis (2019) - "Deep Learning for Survival Prediction"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Assistant Professor at MIT</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Robert Wilson (2018) - "Big Data Analytics for Genomics"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Senior Bioinformatician at Broad Institute</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Jennifer Miller (2017) - "Computer Vision for Facial Behavior Analysis"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Senior Research Engineer at Apple</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Supervised Master Students -->
+                <div class="student-section">
+                    <h2><i class="fas fa-user-graduate"></i> Supervised Master Students</h2>
+                    <ul>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    David Taylor (2023) - "Machine Learning for Non-intrusive Load Monitoring"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Software Engineer at Tesla</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Lisa Anderson (2023) - "3D Modeling in Medical Images"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>PhD Student at Carnegie Mellon University</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    James Thomas (2022) - "Deep Learning for Survival Prediction"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Data Scientist at Microsoft</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Mary Jackson (2022) - "Image-Omics Data Analytics"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Research Associate at Mayo Clinic</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Christopher White (2021) - "Structured Sparsity Applications"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>Machine Learning Engineer at Amazon</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Patricia Harris (2021) - "Magnetic Resonance Imaging Analysis"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>PhD Student at University of Toronto</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="student-info">
+                                <div class="student-details">
+                                    Richard Martin (2020) - "Human Behavior Analysis Using AI"
+                                </div>
+                                <div class="student-current">
+                                    <h4>Current Position</h4>
+                                    <p>AI Researcher at NVIDIA</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Information for Future Students -->
+                <div class="student-section">
+                    <h2><i class="fas fa-info-circle"></i> Information for Future Students</h2>
+                    <p>I am always looking for motivated and talented students to join my research group. If you are interested in pursuing a PhD or Master's degree under my supervision, please feel free to contact me.</p>
+                    <p>My research group focuses on developing novel machine learning algorithms for real-world applications, particularly in healthcare and biomedicine. We have collaborations with medical schools, hospitals, and industry partners.</p>
+                    <p>Prospective students should have a strong background in computer science, mathematics, or a related field. Experience with machine learning, deep learning, and programming is highly desirable.</p>
+                </div>
+                <!-- Academic and Work Experience Section -->
+                <div class="experience-section">
+                    <h2><i class="fas fa-briefcase"></i> Academic & Work Experience</h2>
+                    
+                    <div class="experience-tabs">
+                        <div class="experience-tab active" data-tab="academic">Academic Experience</div>
+                        <div class="experience-tab" data-tab="work">Work Experience</div>
+                    </div>
+                    
+                    <!-- Academic Experience -->
+                    <div class="experience-content active" id="academic">
+                        <div class="experience-item">
+                            <h3>Professor of Computer Science <span class="period">2018 - Present</span></h3>
+                            <div class="institution">University of Technology</div>
+                            <div class="description">Leading research in machine learning and AI, teaching graduate and undergraduate courses, and supervising PhD and Master's students.</div>
+                            <ul class="achievements">
+                                <li>Established the AI for Healthcare Research Lab</li>
+                                <li>Secured over $2M in research funding</li>
+                                <li>Received the Excellence in Teaching Award (2021)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Associate Professor <span class="period">2013 - 2018</span></h3>
+                            <div class="institution">State University</div>
+                            <div class="description">Conducted research in machine learning, developed new courses in deep learning, and mentored graduate students.</div>
+                            <ul class="achievements">
+                                <li>Published 50+ papers in top-tier conferences and journals</li>
+                                <li>Developed the first deep learning course at the university</li>
+                                <li>Received the Early Career Researcher Award (2015)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Assistant Professor <span class="period">2010 - 2013</span></h3>
+                            <div class="institution">Technical Institute</div>
+                            <div class="description">Started academic career, taught introductory computer science courses, and built research program in machine learning.</div>
+                            <ul class="achievements">
+                                <li>Established collaborations with industry partners</li>
+                                <li>Supervised first PhD student to completion</li>
+                                <li>Received the Best New Faculty Award (2011)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Postdoctoral Researcher <span class="period">2008 - 2010</span></h3>
+                            <div class="institution">Prestigious Research Institute</div>
+                            <div class="description">Conducted advanced research in machine learning algorithms and their applications to real-world problems.</div>
+                            <ul class="achievements">
+                                <li>Developed novel algorithms for structured sparsity</li>
+                                <li>Collaborated with leading researchers in the field</li>
+                                <li>Published in top machine learning conferences</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Work Experience -->
+                    <div class="experience-content" id="work">
+                        <div class="experience-item">
+                            <h3>Senior Research Scientist <span class="period">2006 - 2008</span></h3>
+                            <div class="institution">Tech Innovations Inc.</div>
+                            <div class="description">Led machine learning research team, developed AI solutions for various applications, and filed patents.</div>
+                            <ul class="achievements">
+                                <li>Developed machine learning models for predictive analytics</li>
+                                <li>Led a team of 5 researchers and engineers</li>
+                                <li>Filed 3 patents related to AI technologies</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Research Scientist <span class="period">2004 - 2006</span></h3>
+                            <div class="institution">Data Solutions Corp.</div>
+                            <div class="description">Developed machine learning algorithms for data mining and pattern recognition in large datasets.</div>
+                            <ul class="achievements">
+                                <li>Improved data processing efficiency by 40%</li>
+                                <li>Developed algorithms adopted by major clients</li>
+                                <li>Received the Innovation Award (2005)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Machine Learning Engineer <span class="period">2002 - 2004</span></h3>
+                            <div class="institution">AI Systems Ltd.</div>
+                            <div class="description">Implemented machine learning solutions for various industries, including finance and healthcare.</div>
+                            <ul class="achievements">
+                                <li>Developed predictive models for financial forecasting</li>
+                                <li>Collaborated with healthcare providers on AI solutions</li>
+                                <li>Contributed to open-source machine learning libraries</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Software Developer <span class="period">2000 - 2002</span></h3>
+                            <div class="institution">Software Dynamics</div>
+                            <div class="description">Developed software applications and gained experience in data processing and algorithm implementation.</div>
+                            <ul class="achievements">
+                                <li>Led development of data processing tools</li>
+                                <li>Implemented optimization algorithms</li>
+                                <li>Received recognition for innovative solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <div class="container">
+                <div class="research-summary">
+                    <h2>Research Summary</h2>
+                    <p>My research focuses on developing novel machine learning and deep learning algorithms for complex real-world problems. I am particularly interested in applications in healthcare, biomedicine, and drug discovery. My work combines theoretical foundations with practical applications, aiming to develop methods that are both mathematically sound and computationally efficient.</p>
+                    <p>Over the years, I have worked on various topics including deep learning, graph neural networks, structured sparsity, medical image analysis, and survival prediction. My research has been published in top-tier conferences and journals, and has been recognized with several awards.</p>
+                    <p>I collaborate with researchers from diverse fields including computer science, medicine, biology, and engineering. These interdisciplinary collaborations have led to novel approaches and solutions to challenging problems.</p>
+                </div>
+                <h2 style="color: var(--primary-color); margin-bottom: 1.5rem; text-align: center;">Research Interests</h2>
+                <div class="research-interests">
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/graph/400/200.jpg" alt="Deep Graph Learning">
+                        <div class="research-card-content">
+                            <h3>Deep Graph Learning</h3>
+                            <ul>
+                                <li>Developing novel graph neural network architectures for complex relational data</li>
+                                <li>Applications in social network analysis, recommendation systems, and knowledge graphs</li>
+                                <li>Scalable algorithms for large-scale graph data</li>
+                                <li>Interpretability and explainability of graph neural networks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/drug/400/200.jpg" alt="Machine Learning for Drug Discovery">
+                        <div class="research-card-content">
+                            <h3>Machine Learning for Drug Discovery</h3>
+                            <ul>
+                                <li>Deep learning models for molecular property prediction</li>
+                                <li>Virtual screening and drug-target interaction prediction</li>
+                                <li>Generative models for de novo drug design</li>
+                                <li>Multi-task learning for drug repurposing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/survival/400/200.jpg" alt="Deep Learning for Survival Prediction">
+                        <div class="research-card-content">
+                            <h3>Deep Learning for Survival Prediction</h3>
+                            <ul>
+                                <li>Novel deep learning models for survival analysis</li>
+                                <li>Handling censored data in deep learning frameworks</li>
+                                <li>Applications in cancer prognosis and treatment planning</li>
+                                <li>Interpretable models for clinical decision support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/imageomics/400/200.jpg" alt="Big Image-Omics Data Analytics">
+                        <div class="research-card-content">
+                            <h3>Big Image-Omics Data Analytics</h3>
+                            <ul>
+                                <li>Integration of medical imaging and genomics data</li>
+                                <li>Multi-modal deep learning for precision medicine</li>
+                                <li>Scalable algorithms for large-scale biomedical data</li>
+                                <li>Applications in cancer research and personalized treatment</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/facial/400/200.jpg" alt="Human/Facial Behavior">
+                        <div class="research-card-content">
+                            <h3>Human/Facial Behavior</h3>
+                            <ul>
+                                <li>Computer vision for facial expression recognition</li>
+                                <li>Deep learning models for behavior analysis</li>
+                                <li>Applications in affective computing and mental health</li>
+                                <li>Privacy-preserving techniques for behavior analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/sparsity/400/200.jpg" alt="Structured Sparsity">
+                        <div class="research-card-content">
+                            <h3>Structured Sparsity: Theory, Algorithms and Applications</h3>
+                            <ul>
+                                <li>Theoretical foundations of structured sparsity</li>
+                                <li>Efficient optimization algorithms for structured sparse models</li>
+                                <li>Applications in feature selection and interpretability</li>
+                                <li>Integration with deep learning frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/mri/400/200.jpg" alt="Magnetic Resonance Imaging">
+                        <div class="research-card-content">
+                            <h3>Magnetic Resonance Imaging</h3>
+                            <ul>
+                                <li>Deep learning for MRI reconstruction and enhancement</li>
+                                <li>Automated segmentation of anatomical structures</li>
+                                <li>Quantitative analysis of MRI data</li>
+                                <li>Applications in neuroimaging and musculoskeletal imaging</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/3dmodel/400/200.jpg" alt="3D Modeling">
+                        <div class="research-card-content">
+                            <h3>3D Modeling, Simulation and Segmentation in Medical Images</h3>
+                            <ul>
+                                <li>Deep learning for 3D medical image segmentation</li>
+                                <li>Physically-based simulation for surgical planning</li>
+                                <li>3D reconstruction from 2D medical images</li>
+                                <li>Applications in surgical navigation and training</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="research-card">
+                        <img src="https://picsum.photos/seed/loadmonitoring/400/200.jpg" alt="Non-intrusive Load Monitoring">
+                        <div class="research-card-content">
+                            <h3>Machine Learning Algorithm Development for Non-intrusive Load Monitoring</h3>
+                            <ul>
+                                <li>Deep learning models for energy disaggregation</li>
+                                <li>Real-time monitoring of electrical appliances</li>
+                                <li>Privacy-preserving techniques for energy data</li>
+                                <li>Applications in smart grids and energy efficiency</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="container">
+                <div class="publications-container">
+                    <h2>Publications</h2>
+                    
+                    <!-- Year Filter -->
+                    <div class="year-filter">
+                        <button class="year-filter-btn active" data-year="all">All Years</button>
+                        <button class="year-filter-btn" data-year="2023">2023</button>
+                        <button class="year-filter-btn" data-year="2022">2022</button>
+                        <button class="year-filter-btn" data-year="2021">2021</button>
+                        <button class="year-filter-btn" data-year="2020">2020</button>
+                        <button class="year-filter-btn" data-year="2019">2019</button>
+                    </div>
+                    
+                    <div class="publication-list">
+                        <div class="publication-item" data-year="2023">
+                            <h3>Deep Learning for Survival Prediction in Cancer Patients</h3>
+                            <div class="authors">John Smith, Jane Doe, Michael Johnson</div>
+                            <div class="venue">International Conference on Machine Learning (ICML), 2023</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                We propose a novel deep learning framework for survival prediction in cancer patients. Our model combines convolutional neural networks for feature extraction from medical images with recurrent neural networks for processing longitudinal clinical data. The framework is evaluated on a large-scale dataset of over 10,000 patients with various types of cancer, demonstrating superior performance compared to existing methods.
+                            </div>
+                            <div class="bibtex">
+@inproceedings{smith2023deep,
+  title={Deep Learning for Survival Prediction in Cancer Patients},
+  author={Smith, John and Doe, Jane and Johnson, Michael},
+  booktitle={International Conference on Machine Learning (ICML)},
+  pages={1234--1243},
+  year={2023},
+  organization={PMLR}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2022">
+                            <h3>Graph Neural Networks for Drug-Target Interaction Prediction</h3>
+                            <div class="authors">Jane Doe, Robert Wilson, Emily Johnson</div>
+                            <div class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2022</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper presents a novel graph neural network architecture for predicting drug-target interactions. Our approach leverages both the molecular structure of drugs and the sequence information of target proteins to predict binding affinity. Experimental results on benchmark datasets demonstrate that our method outperforms state-of-the-art approaches by a significant margin.
+                            </div>
+                            <div class="bibtex">
+@inproceedings{doe2022graph,
+  title={Graph Neural Networks for Drug-Target Interaction Prediction},
+  author={Doe, Jane and Wilson, Robert and Johnson, Emily},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  pages={2345--2356},
+  year={2022}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2022">
+                            <h3>Structured Sparsity in High-Dimensional Data: Theory and Algorithms</h3>
+                            <div class="authors">Michael Johnson, Sarah Davis, John Smith</div>
+                            <div class="venue">Journal of Machine Learning Research (JMLR), 2022</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                We present a comprehensive theoretical and algorithmic framework for structured sparsity in high-dimensional data. Our work extends traditional sparsity-inducing norms to incorporate structural constraints on the sparsity patterns. We derive theoretical guarantees for recovery and develop efficient optimization algorithms for various structured sparsity models.
+                            </div>
+                            <div class="bibtex">
+@article{johnson2022structured,
+  title={Structured Sparsity in High-Dimensional Data: Theory and Algorithms},
+  author={Johnson, Michael and Davis, Sarah and Smith, John},
+  journal={Journal of Machine Learning Research},
+  volume={23},
+  number={1},
+  pages={3456--3480},
+  year={2022}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2022">
+                            <h3>Deep Learning for Medical Image Segmentation: A Survey</h3>
+                            <div class="authors">Robert Wilson, Jennifer Miller, Jane Doe</div>
+                            <div class="venue">IEEE Transactions on Medical Imaging, 2022</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper provides a comprehensive survey of deep learning techniques for medical image segmentation. We review and categorize existing methods based on their architectural design, training strategies, and application domains. We also discuss current challenges and future research directions in this rapidly evolving field.
+                            </div>
+                            <div class="bibtex">
+@article{wilson2022deep,
+  title={Deep Learning for Medical Image Segmentation: A Survey},
+  author={Wilson, Robert and Miller, Jennifer and Doe, Jane},
+  journal={IEEE Transactions on Medical Imaging},
+  volume={41},
+  number={3},
+  pages={789--812},
+  year={2022},
+  publisher={IEEE}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2021">
+                            <h3>Multi-modal Deep Learning for Image-Omics Data Integration</h3>
+                            <div class="authors">Sarah Davis, David Taylor, Michael Johnson</div>
+                            <div class="venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2021</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                We propose a multi-modal deep learning framework for integrating medical imaging and genomics data. Our approach uses attention mechanisms to effectively combine information from different modalities and learn cross-modal representations. Experimental results on several cancer datasets demonstrate the effectiveness of our method for precision medicine applications.
+                            </div>
+                            <div class="bibtex">
+@inproceedings{davis2021multi,
+  title={Multi-modal Deep Learning for Image-Omics Data Integration},
+  author={Davis, Sarah and Taylor, David and Johnson, Michael},
+  booktitle={Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  pages={4567--4578},
+  year={2021},
+  organization={Springer}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2021">
+                            <h3>Computer Vision for Facial Behavior Analysis: A Deep Learning Approach</h3>
+                            <div class="authors">Jennifer Miller, Lisa Anderson, Robert Wilson</div>
+                            <div class="venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper presents a deep learning approach for facial behavior analysis. Our method combines convolutional neural networks for feature extraction with transformer architectures for modeling temporal dynamics. We evaluate our approach on several benchmark datasets for facial expression recognition and action unit detection, achieving state-of-the-art results.
+                            </div>
+                            <div class="bibtex">
+@inproceedings{miller2021computer,
+  title={Computer Vision for Facial Behavior Analysis: A Deep Learning Approach},
+  author={Miller, Jennifer and Anderson, Lisa and Wilson, Robert},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={5678--5689},
+  year={2021}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2021">
+                            <h3>3D Modeling and Simulation in Medical Images: A Deep Learning Framework</h3>
+                            <div class="authors">David Taylor, James Thomas, Sarah Davis</div>
+                            <div class="venue">International Conference on Computer Vision (ICCV), 2021</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                We propose a deep learning framework for 3D modeling and simulation in medical images. Our approach combines 3D convolutional neural networks for segmentation with differentiable rendering techniques for realistic simulation. Experimental results on various medical imaging modalities demonstrate the effectiveness of our method for surgical planning and training.
+                            </div>
+                            <div class="bibtex">
+@inproceedings{taylor20213d,
+  title={3D Modeling and Simulation in Medical Images: A Deep Learning Framework},
+  author={Taylor, David and Thomas, James and Davis, Sarah},
+  booktitle={International Conference on Computer Vision (ICCV)},
+  pages={6789--6800},
+  year={2021}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2021">
+                            <h3>Machine Learning for Non-intrusive Load Monitoring: A Review</h3>
+                            <div class="authors">Lisa Anderson, Mary Jackson, Jennifer Miller</div>
+                            <div class="venue">Applied Energy, 2021</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper provides a comprehensive review of machine learning techniques for non-intrusive load monitoring (NILM). We categorize existing approaches based on their underlying methodologies and discuss their strengths and limitations. We also identify key challenges and future research directions in the field of NILM.
+                            </div>
+                            <div class="bibtex">
+@article{anderson2021machine,
+  title={Machine Learning for Non-intrusive Load Monitoring: A Review},
+  author={Anderson, Lisa and Jackson, Mary and Miller, Jennifer},
+  journal={Applied Energy},
+  volume={285},
+  pages={116439},
+  year={2021},
+  publisher={Elsevier}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2020">
+                            <h3>Deep Learning for MRI Reconstruction: A Survey</h3>
+                            <div class="authors">James Thomas, Christopher White, David Taylor</div>
+                            <div class="venue">Magnetic Resonance in Medicine, 2020</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper provides a comprehensive survey of deep learning techniques for MRI reconstruction. We review and categorize existing methods based on their network architectures, training strategies, and application domains. We also discuss current challenges and future research directions in this rapidly evolving field.
+                            </div>
+                            <div class="bibtex">
+@article{thomas2020deep,
+  title={Deep Learning for MRI Reconstruction: A Survey},
+  author={Thomas, James and White, Christopher and Taylor, David},
+  journal={Magnetic Resonance in Medicine},
+  volume={84},
+  number={4},
+  pages={2238--2257},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2020">
+                            <h3>Graph Neural Networks for Social Network Analysis</h3>
+                            <div class="authors">Mary Jackson, Richard Martin, James Thomas</div>
+                            <div class="venue">The Web Conference (WWW), 2020</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                We propose a novel graph neural network architecture for social network analysis. Our approach leverages both the structural information of the network and the content features of nodes to learn effective representations. Experimental results on several social network datasets demonstrate the effectiveness of our method for various tasks including community detection and link prediction.
+                            </div>
+                            <div class="bibtex">
+@inproceedings{jackson2020graph,
+  title={Graph Neural Networks for Social Network Analysis},
+  author={Jackson, Mary and Martin, Richard and Thomas, James},
+  booktitle={The Web Conference (WWW)},
+  pages={789--802},
+  year={2020}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2020">
+                            <h3>Deep Learning for Survival Prediction: A Comprehensive Review</h3>
+                            <div class="authors">John Smith, Emily Johnson, Michael Brown</div>
+                            <div class="venue">Artificial Intelligence in Medicine, 2020</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper provides a comprehensive review of deep learning techniques for survival prediction. We categorize existing approaches based on their underlying methodologies and discuss their strengths and limitations. We also identify key challenges and future research directions in the field of survival analysis.
+                            </div>
+                            <div class="bibtex">
+@article{smith2020deep,
+  title={Deep Learning for Survival Prediction: A Comprehensive Review},
+  author={Smith, John and Johnson, Emily and Brown, Michael},
+  journal={Artificial Intelligence in Medicine},
+  volume={107},
+  pages={101875},
+  year={2020},
+  publisher={Elsevier}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2020">
+                            <h3>Drug Discovery with Deep Learning: A Survey</h3>
+                            <div class="authors">Jane Doe, Sarah Davis, Robert Wilson</div>
+                            <div class="venue">Briefings in Bioinformatics, 2020</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper provides a comprehensive survey of deep learning techniques for drug discovery. We review and categorize existing methods based on their applications in various stages of the drug discovery pipeline. We also discuss current challenges and future research directions in this rapidly evolving field.
+                            </div>
+                            <div class="bibtex">
+@article{doe2020drug,
+  title={Drug Discovery with Deep Learning: A Survey},
+  author={Doe, Jane and Davis, Sarah and Wilson, Robert},
+  journal={Briefings in Bioinformatics},
+  volume={21},
+  number={5},
+  pages={1601--1615},
+  year={2020},
+  publisher={Oxford University Press}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2019">
+                            <h3>Structured Sparsity Methods for High-Dimensional Data Analysis</h3>
+                            <div class="authors">Michael Johnson, Jennifer Miller, David Taylor</div>
+                            <div class="venue">IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                We present a comprehensive framework for structured sparsity in high-dimensional data analysis. Our approach extends traditional sparsity-inducing norms to incorporate structural constraints on the sparsity patterns. We derive theoretical guarantees for recovery and develop efficient optimization algorithms for various structured sparsity models.
+                            </div>
+                            <div class="bibtex">
+@article{johnson2019structured,
+  title={Structured Sparsity Methods for High-Dimensional Data Analysis},
+  author={Johnson, Michael and Miller, Jennifer and Taylor, David},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={41},
+  number={12},
+  pages={2988--3003},
+  year={2019},
+  publisher={IEEE}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2019">
+                            <h3>Deep Learning for Medical Image Analysis: A Survey</h3>
+                            <div class="authors">Robert Wilson, Lisa Anderson, James Thomas</div>
+                            <div class="venue">Neurocomputing, 2019</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper provides a comprehensive survey of deep learning techniques for medical image analysis. We review and categorize existing methods based on their architectural design, training strategies, and application domains. We also discuss current challenges and future research directions in this rapidly evolving field.
+                            </div>
+                            <div class="bibtex">
+@article{wilson2019deep,
+  title={Deep Learning for Medical Image Analysis: A Survey},
+  author={Wilson, Robert and Anderson, Lisa and Thomas, James},
+  journal={Neurocomputing},
+  volume={335},
+  pages={11--26},
+  year={2019},
+  publisher={Elsevier}
+}
+                            </div>
+                        </div>
+                        <div class="publication-item" data-year="2019">
+                            <h3>Facial Behavior Analysis with Deep Learning: A Review</h3>
+                            <div class="authors">Sarah Davis, Mary Jackson, Christopher White</div>
+                            <div class="venue">ACM Computing Surveys, 2019</div>
+                            <div class="links">
+                                <a href="#"><i class="fas fa-file-pdf"></i>PDF</a>
+                                <a href="#"><i class="fas fa-code"></i>Code</a>
+                                <button class="btn-expand abstract-btn"><i class="fas fa-plus"></i>Abstract</button>
+                                <button class="btn-expand bibtex-btn"><i class="fas fa-quote-right"></i>BibTeX</button>
+                            </div>
+                            <div class="abstract">
+                                This paper provides a comprehensive review of deep learning techniques for facial behavior analysis. We categorize existing approaches based on their underlying methodologies and discuss their strengths and limitations. We also identify key challenges and future research directions in the field of facial behavior analysis.
+                            </div>
+                            <div class="bibtex">
+@article{davis2019facial,
+  title={Facial Behavior Analysis with Deep Learning: A Review},
+  author={Davis, Sarah and Jackson, Mary and White, Christopher},
+  journal={ACM Computing Surveys},
+  volume={52},
+  number={2},
+  pages={1--38},
+  year={2019},
+  publisher={ACM New York, NY, USA}
+}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Downloads Section -->
+        <section id="downloads" class="section">
+            <div class="container">
+                <div class="downloads-container">
+                    <h2>Downloads</h2>
+                    <div class="download-list">
+                        <div class="download-item">
+                            <h3>Deep Survival</h3>
+                            <p>A deep learning framework for survival analysis with support for various types of censoring and competing risks.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>GraphDTI</h3>
+                            <p>Graph neural network models for drug-target interaction prediction with molecular graph representations.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>SparsityNet</h3>
+                            <p>Efficient algorithms for structured sparsity in high-dimensional data with applications to feature selection.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>Med3DSeg</h3>
+                            <p>3D medical image segmentation using deep learning with state-of-the-art performance on multiple datasets.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>ImageOmics</h3>
+                            <p>Multi-modal deep learning framework for integrating medical imaging and genomics data for precision medicine.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>FaceBehavior</h3>
+                            <p>Deep learning models for facial behavior analysis with applications in affective computing and mental health.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>Med3D</h3>
+                            <p>3D modeling, simulation, and segmentation in medical images with applications in surgical planning and training.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>NILM-ML</h3>
+                            <p>Machine learning algorithms for non-intrusive load monitoring with real-time performance and high accuracy.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                        <div class="download-item">
+                            <h3>DeepMRI</h3>
+                            <p>Deep learning models for MRI reconstruction and enhancement with reduced scan times and improved image quality.</p>
+                            <div class="links">
+                                <a href="#"><i class="fab fa-github"></i>Code</a>
+                                <a href="#"><i class="fas fa-file-pdf"></i>Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Teaching Section -->
+        <section id="teaching" class="section">
+            <div class="container">
+                <div class="teaching-container">
+                    <h2>Teaching</h2>
+                    <ul class="teaching-list">
+                        <li class="teaching-item">
+                            <h3>Machine Learning</h3>
+                            <div class="course-code">CS 540</div>
+                            <div class="semester">Fall 2023, Spring 2023, Fall 2022, Spring 2022</div>
+                            <div class="description">This course provides a broad introduction to machine learning and statistical pattern recognition. Topics include supervised learning (generative/discriminative learning, parametric/non-parametric learning, neural networks, support vector machines), unsupervised learning (clustering, dimensionality reduction, recommender systems), and learning theory (bias/variance tradeoffs, practical advice).</div>
+                        </li>
+                        <li class="teaching-item">
+                            <h3>Deep Learning</h3>
+                            <div class="course-code">CS 640</div>
+                            <div class="semester">Fall 2023, Fall 2022, Fall 2021</div>
+                            <div class="description">This course covers the fundamentals of deep learning with a focus on applications. Topics include neural network architectures, convolutional neural networks, recurrent neural networks, transformers, generative models, and deep reinforcement learning. Students will implement and train deep neural networks for a variety of applications.</div>
+                        </li>
+                        <li class="teaching-item">
+                            <h3>Medical Image Analysis</h3>
+                            <div class="course-code">CS 545</div>
+                            <div class="semester">Spring 2023, Spring 2022, Spring 2021</div>
+                            <div class="description">This course introduces the fundamental techniques for medical image analysis. Topics include image preprocessing, segmentation, registration, visualization, and machine learning for medical images. Students will work with real medical imaging data and implement algorithms for various applications.</div>
+                        </li>
+                        <li class="teaching-item">
+                            <h3>Graph Machine Learning</h3>
+                            <div class="course-code">CS 740</div>
+                            <div class="semester">Fall 2022, Fall 2021</div>
+                            <div class="description">This advanced course covers machine learning on graph-structured data. Topics include graph representation learning, graph neural networks, graph transformers, and applications in various domains. Students will read and discuss recent research papers and implement state-of-the-art algorithms.</div>
+                        </li>
+                        <li class="teaching-item">
+                            <h3>Advanced Topics in Machine Learning</h3>
+                            <div class="course-code">CS 840</div>
+                            <div class="semester">Spring 2022, Spring 2021</div>
+                            <div class="description">This seminar course covers advanced topics in machine learning, with a focus on recent research developments. Topics vary each year but may include deep learning theory, reinforcement learning, generative models, and applications in healthcare. Students will read and present research papers and complete a research project.</div>
+                        </li>
+                        <li class="teaching-item">
+                            <h3>Introduction to Data Science</h3>
+                            <div class="course-code">CS 340</div>
+                            <div class="semester">Fall 2021, Fall 2020</div>
+                            <div class="description">This course provides an introduction to the field of data science. Topics include data collection and cleaning, exploratory data analysis, statistical inference, predictive modeling, and data visualization. Students will work with real-world datasets and use various tools and techniques for data analysis.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-text">
+                                <h3>Address</h3>
+                                <p>Department of Computer Science<br>University of Technology<br>123 University Avenue<br>City, State 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>professor@university.edu</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>+1 (123) 456-7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div class="contact-text">
+                                <h3>Office Hours</h3>
+                                <p>Monday: 10:00 AM - 12:00 PM<br>Wednesday: 2:00 PM - 4:00 PM<br>Friday: 10:00 AM - 12:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Academic Profiles Section -->
+                        <div class="academic-profiles">
+                            <h3>Academic Profiles</h3>
+                            <div class="profile-links">
+                                <a href="https://scholar.google.com/citations?user=example" target="_blank" class="profile-link">
+                                    <i class="fab fa-google"></i>Google Scholar
+                                </a>
+                                <a href="https://www.researchgate.net/profile/example" target="_blank" class="profile-link">
+                                    <i class="fab fa-researchgate"></i>ResearchGate
+                                </a>
+                                <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="profile-link">
+                                    <i class="fab fa-orcid"></i>ORCID
+                                </a>
+                                <a href="https://www.linkedin.com/in/example" target="_blank" class="profile-link">
+                                    <i class="fab fa-linkedin"></i>LinkedIn
+                                </a>
+                                <a href="https://github.com/example" target="_blank" class="profile-link">
+                                    <i class="fab fa-github"></i>GitHub
+                                </a>
+                                <a href="https://dblp.org/pid/00/0000.html" target="_blank" class="profile-link">
+                                    <i class="fas fa-graduation-cap"></i>DBLP
+                                </a>
+                                <a href="https://www.semanticscholar.org/author/example" target="_blank" class="profile-link">
+                                    <i class="fas fa-book"></i>Semantic Scholar
+                                </a>
+                                <a href="https://publons.com/researcher/example" target="_blank" class="profile-link">
+                                    <i class="fas fa-quote-right"></i>Publons
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h2>Send a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-researchgate"></i></a>
+            </div>
+            <p>&copy; 2023 Academic Personal Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
