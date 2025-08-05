@@ -148,6 +148,4 @@ Inspired by modern academic and research website designs.
 ## 📬 Contact
 
 Have questions or ideas? Reach out via:
-
-- GitHub Issues
 - [raakibul.uap@gmail.com](mailto:raakibul.uap@gmail.com)
