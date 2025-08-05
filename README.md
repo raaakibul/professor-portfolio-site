@@ -10,6 +10,7 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/raaakibul/professor-portfolio-site.git
 ''''
+📁 2. Navigate to the Project Directory
 ###2. Navigate to the Project Directory
 cd professor-portfolio-site
 3. Open the Website
